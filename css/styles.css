@@ -1,0 +1,75 @@
+/*ID STYLING*/
+
+
+/*CLASS STYLING*/
+.titlecontainer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+    color: #40c4ff;
+    font-size: 25px;
+}
+.dudecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%
+}
+.dogcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.navcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+.iconcontainer {
+    display:flex;
+    justify-content: space-around;
+    color: #40c4ff;
+}
+/*TAG STYLING*/
+h3 {
+    margin: auto;
+}
+i {
+    font-size: 40px;
+}
+p {
+    font-size: 32px;
+    color: #ff4081;
+}
+main {
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: space-evenly;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+body {
+    background-color: #fffde7;
+    margin:0 auto;
+}
+@media only screen and (min-width:480px) {
+    footer {
+        display: flex;
+    }
+    body {
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: flex-end;
+    }
+    .navcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+   p:hover {
+       color: #ffffff;
+   }
+}
